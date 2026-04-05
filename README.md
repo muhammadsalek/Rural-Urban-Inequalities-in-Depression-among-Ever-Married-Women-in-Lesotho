@@ -1,0 +1,2 @@
+# Rural-Urban-Inequalities-in-Depression-among-Ever-Married-Women-in-Lesotho
+The study investigates the prevalence and risk factors of depression among ever-married women in Lesotho, with a focus on rural-urban disparities. Using nationally representative survey data, the analysis identifies key sociodemographic and geographic determinants of depression, providing evidence to guide targeted mental health interventions.
