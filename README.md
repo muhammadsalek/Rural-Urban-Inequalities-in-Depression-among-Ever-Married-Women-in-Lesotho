@@ -3,8 +3,8 @@
 <div align="center">
 
 [![License](https://img.shields.io/badge/License-MIT-e11d48?style=for-the-badge&labelColor=0f0f0f&logo=opensourceinitiative&logoColor=e11d48)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Under%20Review-f59e0b?style=for-the-badge&labelColor=0f0f0f)](https://github.com)
-[![Journal](https://img.shields.io/badge/Output-Q1%20Journal%20Ready-6366f1?style=for-the-badge&labelColor=0f0f0f)](https://github.com)
+[![Status](https://img.shields.io/badge/Status-Published-22c55e?style=for-the-badge&labelColor=0f0f0f)](https://doi.org/10.1016/j.jadr.2026.101080)
+[![Journal](https://img.shields.io/badge/Journal-Journal%20of%20Affective%20Disorders%20Reports-6366f1?style=for-the-badge&labelColor=0f0f0f)](https://doi.org/10.1016/j.jadr.2026.101080)
 [![N](https://img.shields.io/badge/Sample-3%2C297%20Women-10b981?style=for-the-badge&labelColor=0f0f0f)](https://github.com)
 [![Country](https://img.shields.io/badge/Country-Lesotho-0ea5e9?style=for-the-badge&labelColor=0f0f0f)](https://github.com)
 
@@ -29,7 +29,7 @@
 ╔══════════════════════════════════════════════════════════════════════════╗
 ║  🧠  3,297 Ever-Married Women  ·  Lesotho  ·  2023–24 DHS  ·  USAID   ║
 ║  📍  Rural–Urban Stratified Analysis  ·  10 Districts  ·  PHQ-9        ║
-║  📊  Prevalence: 7.0%  ·  AUC: 0.676  ·  H-L p = 0.732               ║
+║  📊  Prevalence: 7.4%  ·  AUC: 0.68  ·  H-L p = 0.6642               ║
 ╚══════════════════════════════════════════════════════════════════════════╝
 ```
 
@@ -39,9 +39,13 @@
 
 ## 📄 Publication Details
 
-> **Rural–Urban Inequalities in Depression among Ever-Married Women in Lesotho: Evidence from the 2023–24 Demographic and Health Survey**
+> **Decision-Making Autonomy and Depressive Symptoms Among Women in Lesotho: Rural–Urban Differences**
 
-**Authors:** Md Salek Miah<sup>a*</sup> · Maria Bintey Kabir<sup>b,c</sup>
+**Journal:** *Journal of Affective Disorders Reports* — Available online **13 May 2026**
+**DOI:** [https://doi.org/10.1016/j.jadr.2026.101080](https://doi.org/10.1016/j.jadr.2026.101080)
+**Article:** 101080 | In Press, Journal Pre-proof | Open Access (Creative Commons)
+
+**Authors:** Md Salek Miah<sup>a</sup> · Maria Bintey Kabir<sup>b,c</sup>
 
 <sup>a</sup> Department of Statistics, Shahjalal University of Science & Technology (SUST), Sylhet-3114, Bangladesh
 <sup>b</sup> Shaheed Suhrawardy Medical College, Dhaka-1207, Bangladesh
@@ -51,7 +55,7 @@
 
 ## Overview
 
-This study investigates **rural–urban inequalities in depression** among ever-married women in Lesotho using data from the nationally representative **Lesotho Demographic and Health Survey (LDHS) 2023–24**, funded by USAID. Depression was assessed using the **Patient Health Questionnaire-9 (PHQ-9)**, and **survey-weighted stepwise multivariable logistic regression** was used to identify determinants, with stratified analyses for rural and urban women.
+This study investigates **decision-making autonomy and depressive symptoms** among ever-married women in Lesotho, with a focus on **rural–urban inequalities** and **province-level spatial disparities**, using data from the nationally representative **Lesotho Demographic and Health Survey (LDHS) 2023–24**, funded by USAID. Depression was assessed using the **Patient Health Questionnaire-9 (PHQ-9 ≥ 10)**, and **survey-weighted multivariable logistic regression** was used to identify associations — with stratified analyses for rural and urban women, and spatial choropleth mapping at the district level.
 
 **Analysis Pipeline:**
 
@@ -62,22 +66,22 @@ LDHS 2023–24  (Cross-Sectional · Nationally Representative · USAID-Funded)
           │  10 districts · Rural & Urban strata
           ▼
    Data Management      cleaning · recoding · survey weighting · PHQ-9 scoring
-   (Stata)              married women · complete depression & covariate data
+   (Stata)              decision-making autonomy composite index · covariate coding
           │
           ▼
    Descriptive Stats    prevalence estimation · district-level breakdown
-                        rural vs urban stratification
+                        rural vs urban stratification · bivariate chi-square tests
           │
           ▼
    Spatial Mapping      district-level depression prevalence maps
-   (R / ggplot2)        decision autonomy spatial figures
+   (R / ggplot2)        decision-making autonomy spatial figures
           │
           ▼
    Regression Analysis  survey-weighted stepwise multivariable logistic regression
                         national · rural-stratified · urban-stratified models
           │
           ▼
-   Model Assessment     AUC · Hosmer–Lemeshow goodness-of-fit
+   Model Assessment     AUC · Hosmer–Lemeshow · VIF · AIC · BIC
           │
           ▼
    Outputs              TIFF spatial figures · adjusted ORs · policy brief
@@ -87,51 +91,43 @@ LDHS 2023–24  (Cross-Sectional · Nationally Representative · USAID-Funded)
 
 ## Abstract
 
-### Objective
-To assess the key influencing risk factors of depression with rural–urban inequalities among ever-married women in Lesotho.
+### Objectives
+To assess the association between depressive symptoms and decision-making autonomy with rural–urban inequalities, and to map province-level spatial disparities in depression prevalence among ever-married women in Lesotho.
 
 ### Methods
-This study analyzed cross-sectional data from **3,297 ever-married women** from the Lesotho Demographic and Health Survey (LDHS) 2023–24. Depression was evaluated using the **Patient Health Questionnaire-9 (PHQ-9)**. Survey-weighted stepwise multivariable logistic regression was conducted to identify factors associated with depression, with stratified analyses for rural and urban areas.
+This study used cross-sectional data from **3,297 ever-married women aged 15–49 years** from the **2023–24 Lesotho Demographic and Health Survey (LDHS)**. Depression was measured using the **Patient Health Questionnaire-9 (PHQ-9 ≥ 10)**. Women's decision-making autonomy was measured using a **composite empowerment index** based on participation in five household decision-making domains. Survey-weighted multivariable logistic regression models were fitted at the national level and **stratified by place of residence**. Model discrimination was assessed using the **AUC**. Spatial analyses were conducted to examine **district-level variation** in depression prevalence and autonomy.
 
 ### Results
 
-**Nationally:**
-- Older age (45–49 years) was associated with **lower odds** of depression (aOR = 0.28; 95% CI: 0.10–0.76)
-- High parity (≥3 children) was associated with **higher odds** (aOR = 2.49; 95% CI: 1.04–5.93)
-- Lower odds observed in Mohale's Hoek (OR = 0.42; 95% CI: 0.19–0.94) and Mokhotlong (OR = 0.33; 95% CI: 0.15–0.74) vs. Maseru
-
-**Among Rural Women**, protective factors included:
-- Older age
-- Late cohabitation (18–20 years: OR = 0.34; 95% CI: 0.16–0.72; ≥21 years: OR = 0.36; 95% CI: 0.17–0.75)
-- Maternal employment (OR = 0.48; 95% CI: 0.27–0.83)
-- Residence in Mafeteng, Mokhotlong, or Thaba-Tseka
-
-**Among Urban Women**, significant factors included:
-- Early sexual debut → increased depression risk
-- Late sexual debut ≥18 years (OR = 0.51; 95% CI: 0.29–0.91) → protective
-- High parity → increased risk
-- Justification of IPV (OR = 0.45; 95% CI: 0.22–0.94)
-- Access to improved water (OR = 5.59; 95% CI: 1.42–21.99)
-- Improved household materials (OR = 0.15; 95% CI: 0.04–0.50) → protective
+- **Overall depression prevalence:** 7.4% (95% CI: 6.3–8.7)
+- Women with decision-making autonomy showed **lower odds of depression nationally** (AOR = 0.63; 95% CI: 0.39–0.98)
+- The protective effect was **stronger in rural areas** (AOR = 0.44; 95% CI: 0.27–0.74)
+- In **urban areas**, the association was not statistically significant (AOR = 0.88; 95% CI: 0.39–1.97)
+- Depression prevalence was **highest** in central–northern districts (Maseru, Berea, Leribe, Butha-Buthe)
+- **Lowest autonomy** was observed in southern and south-western provinces (Quthing, Qacha's Nek, Mohale's Hoek, Mafeteng)
 
 ### Conclusions
-Depression affects approximately **one in fourteen ever-married women** in Lesotho, with significant variation by age, parity, residence, and geography. Targeted mental health interventions are needed for high-risk groups — particularly women with high parity, early sexual debut, and those residing in urban or central-northern districts.
+Women's decision-making autonomy is significantly associated with **lower odds of depressive symptoms** in Lesotho, particularly among rural women. The observed rural–urban and spatial inequalities highlight the need for **context-specific mental health and reproductive health interventions** that incorporate women's empowerment as a core component.
 
-**Keywords:** Maternal Mental Health · Depression · Rural-Urban Health Disparities · Socioeconomic Inequalities · Lesotho
+**Keywords:** Depression · Decision-making autonomy · Pregnancy loss · Rural–urban disparities · Lesotho · Spatial analysis
 
 ---
 
 ## ✨ Key Highlights
 
-> 🔵 **7%** of ever-married women showed depression nationally
+> 🔵 **7.4%** (95% CI: 6.3–8.7) of ever-married women showed moderate-severe depression nationally
 
-> 🔴 Highest depression prevalence in **Berea, Maseru, Leribe, and Butha-Buthe** districts
+> 🛡️ Decision-making autonomy was **protective** nationally (AOR = 0.63) and **strongly protective in rural areas** (AOR = 0.44)
 
-> 📈 Final model: **AUC = 0.676** (moderate discriminative ability) · **Hosmer–Lemeshow p = 0.732** (good fit)
+> 🏙️ Depression rates were **slightly higher among urban women** despite greater resource access — reflecting urban stressors
 
-> 🌍 Significant **rural–urban stratification** in determinants — risk factors differ meaningfully by residence type
+> 🔴 Highest depression burden in **Maseru, Berea, Leribe, and Butha-Buthe** (central–northern districts)
 
-> 👶 **High parity (≥3 children)** strongly associated with increased depression odds nationally
+> 📉 Lowest autonomy concentrated in **Quthing, Qacha's Nek, Mohale's Hoek, and Mafeteng** (southern/south-western)
+
+> 📈 Final model: **AUC = 0.68** (moderate discriminative ability) · **Hosmer–Lemeshow p = 0.6642** (good fit) · **AIC = 1648.22** · **mean VIF = 2.2**
+
+> 🌍 Significant **rural–urban heterogeneity** — autonomy protective effect statistically significant only in rural areas
 
 ---
 
@@ -160,37 +156,44 @@ Study Physician, Projahnmo Research Foundation, Dhaka-1213, Bangladesh
 
 ### Survey Overview
 
-This study used secondary data from the **Lesotho Demographic and Health Survey (LDHS) 2023–24** — a **cross-sectional, nationally representative** survey funded by **USAID** via the DHS Program. The survey was conducted in partnership with the Lesotho Ministry of Health, using standardized structured questionnaires administered by trained interviewers across all 10 districts.
+This study used secondary data from the **Lesotho Demographic and Health Survey (LDHS) 2023–24** — a **cross-sectional, nationally representative** survey funded by **USAID** via the DHS Program. The survey was conducted from **27 November 2023 to 29 February 2024** in partnership with the Lesotho Ministry of Health, using standardized structured questionnaires administered via **tablet-based CAPI** across all 10 districts.
 
 | Field | Details |
 |:------|:--------|
-| 📅 **Survey Year** | 2023–24 |
+| 📅 **Survey Period** | 27 November 2023 – 29 February 2024 |
 | 🌍 **Country** | Lesotho |
 | 🔗 **Source** | [DHS Program — USAID Funded](https://dhsprogram.com) |
 | 📄 **Survey Report** | FR391.pdf (included in repository) |
-| 👩 **Sample (n)** | **3,297** ever-married women |
-| 🏥 **Depression Tool** | Patient Health Questionnaire-9 (PHQ-9) |
-| 📐 **Design** | Cross-sectional · multi-stage cluster sampling |
+| 👩 **Final Sample (n)** | **3,297** ever-married women |
+| 🏥 **Depression Tool** | Patient Health Questionnaire-9 (PHQ-9 ≥ 10) |
+| 🛡️ **Exposure** | Decision-making autonomy (composite index, 5 domains) |
+| 📐 **Design** | Cross-sectional · two-stage stratified cluster sampling |
 | 🗺️ **Coverage** | 10 districts · National |
+| ✅ **Reporting Standard** | STROBE guidelines |
 
 > **Note:** Raw DHS microdata requires free registration at [dhsprogram.com](https://dhsprogram.com). The cleaned Stata dataset (`clean_data_emp.dta`) used in this analysis is freely available in this repository.
 
-### Study Population & Eligibility
+### Sampling Design
 
 ```
-Target Population
-      │
-      ├─ Ever-married women of reproductive age: 15–49 years
-      ├─ Resident in Lesotho at the time of the 2023–24 DHS
-      └─ Inclusion: Complete data on depression (PHQ-9) & key covariates
-
-                         ↓  After data management & survey weighting
-
+2016 Lesotho Population & Housing Census
+          │
+          ▼
+Stage 1: 400 Enumeration Areas (EAs) — probability proportional to size
+          │
+          ▼
+Stage 2: 25 households per EA — systematic random sampling
+          │
+          ▼
+Eligible: Women aged 15–49 · usual residents or overnight guests
+Subsampled: PHQ-9 depression module respondents
+          │
+          ▼
               ┌──────────────────────────────────────────┐
-              │   Final Sample: n = 3,297 Women          │
+              │   Final Weighted Sample: n = 3,297       │
               ├──────────────────┬───────────────────────┤
-              │  🌾 Rural        │   Stratified analysis  │
-              │  🏙️ Urban        │   Stratified analysis  │
+              │  🌾 Rural 55.0%  │   n = 2,086           │
+              │  🏙️ Urban 45.0%  │   n = 1,211           │
               │  📍 10 Districts │   Spatial mapping      │
               └──────────────────┴───────────────────────┘
 ```
@@ -223,73 +226,114 @@ Rural-Urban-Inequalities-in-Depression-among-Ever-Married-Women-in-Lesotho/
 
 ## Key Variables & Measurement
 
-| Variable | Type | Measurement |
-|:---------|:-----|:------------|
-| **Depression** | Binary outcome | PHQ-9 ≥ 10 = depressed |
-| **Residence** | Stratifier | Rural / Urban |
-| **Maternal age** | Categorical | 15–19, 20–24, ..., 45–49 years |
-| **Parity** | Categorical | 0, 1–2, ≥3 children |
-| **Age at cohabitation** | Categorical | <18, 18–20, ≥21 years |
-| **Sexual debut age** | Categorical | Early (<18) vs. late (≥18) |
-| **Employment status** | Binary | Employed / Not employed |
-| **IPV justification** | Binary | Yes / No |
-| **Water source** | Binary | Improved / Unimproved |
-| **Household materials** | Binary | Improved / Unimproved |
-| **District** | Categorical | 10 districts (ref: Maseru) |
+### Outcome Variable
+| Variable | Measurement | Cut-off |
+|:---------|:------------|:--------|
+| **Depressive symptoms** | PHQ-9 scale (9 items) | ≥ 10 = moderate-severe depression; < 10 = no depression |
+| **Internal consistency** | Cronbach's alpha | α = 0.82 (good reliability) |
+
+### Main Exposure — Decision-Making Autonomy (Composite Index)
+
+Women scored 1 point per domain if they reported deciding **alone or jointly** with their partner:
+
+| Domain | Points |
+|:-------|:------:|
+| Own health care | 1 |
+| Large household purchases | 1 |
+| Use of household money | 1 |
+| Visits to relatives or family | 1 |
+| Family planning decisions | 1 |
+| **Total composite score** | **0–5** |
+
+> **No autonomy:** composite score ≤ 2 · **Has autonomy:** composite score ≥ 3
+
+### Key Covariates
+| Variable | Type | Categories |
+|:---------|:-----|:-----------|
+| Women's age | Categorical | 15–19, 20–24, 25–29, 30–34, 35–39, 40–44, 45–49 yrs |
+| Education | Categorical | Below primary / Secondary incomplete / Secondary or higher |
+| Maternal employment | Binary | Currently working / Not working |
+| Age at first birth | Categorical | Early (10–17) / Normal (18–24) / Late (≥25) |
+| Age at cohabitation | Categorical | Young (<18) / Mild (18–20) / Older (≥21) |
+| Pregnancy loss | Categorical | None / One / Two or more |
+| Place of residence | Binary | Urban / Rural |
+| Administrative province | Categorical | 10 provinces (ref: Maseru) |
+| Wealth status | Categorical | Poor / Middle / Rich |
+| Household head sex | Binary | Male / Female |
+| Internet use | Binary | Yes / No (last 12 months) |
+| Media access | Binary | Yes / No |
+| Water source | Binary | Improved / Unimproved |
+| Toilet facility | Binary | Improved / Unimproved |
 
 ---
 
 ## Statistical Methods
 
-| Step | Method |
-|:-----|:-------|
-| **Prevalence estimation** | Survey-weighted proportions with 95% CI |
-| **Spatial analysis** | District-level choropleth mapping (R) |
-| **Regression** | Survey-weighted stepwise multivariable logistic regression |
-| **Stratification** | Rural vs. Urban separate models |
-| **Model fit** | Hosmer–Lemeshow goodness-of-fit test |
-| **Discrimination** | Area Under the ROC Curve (AUC) |
-| **Effect measure** | Adjusted odds ratios (aOR) with 95% CI |
-| **Software** | Stata · R (ggplot2 / spatial packages) |
+| Step | Method | Detail |
+|:-----|:-------|:-------|
+| **Descriptive** | Survey-weighted proportions | 95% CI; chi-square bivariate tests |
+| **Spatial analysis** | District-level choropleth mapping | R (ggplot2 / spatial packages) |
+| **Regression** | Survey-weighted stepwise multivariable logistic | Forward stepwise; Models 0–4 |
+| **Stratification** | Rural (n=2,086) vs. Urban (n=1,211) | Separate fully adjusted models |
+| **Multicollinearity** | Variance Inflation Factor (VIF) | Mean VIF = 2.2 |
+| **Model fit** | Hosmer–Lemeshow test | χ² = 5.85, p = 0.6642 |
+| **Discrimination** | Area Under ROC Curve (AUC) | AUC = 0.6781 |
+| **Model selection** | AIC / BIC | AIC = 1648.22; BIC = 1886.15 |
+| **Effect measure** | Adjusted odds ratios (AOR) | 95% CI; p < 0.05 significance |
+| **Software** | Stata · R | STROBE-compliant reporting |
+
+### Model Building Sequence
+
+| Model | Variables Added |
+|:------|:----------------|
+| **Model 0** | Maternal age + decision-making autonomy |
+| **Model 1** | + Sociodemographic factors (education, religion, residence) |
+| **Model 2** | + Reproductive factors (age at first birth, cohabitation, parity, pregnancy loss) |
+| **Model 3** | + Contextual factors (urban/rural residence) |
+| **Model 4 (Final)** | + Household & environmental factors (toilet, water, household size, wealth, media, internet, assets, materials) |
 
 ---
 
-## Key Results Summary
+## Key Results
 
-### National-Level Model
+### Depression Prevalence
 
-| Factor | Direction | aOR (95% CI) |
-|:-------|:---------:|:------------:|
-| Age 45–49 years | ↓ Protective | 0.28 (0.10–0.76) |
-| Parity ≥3 children | ↑ Risk | 2.49 (1.04–5.93) |
-| Mohale's Hoek district | ↓ Protective | 0.42 (0.19–0.94) |
-| Mokhotlong district | ↓ Protective | 0.33 (0.15–0.74) |
+| Group | Prevalence | 95% CI |
+|:------|:----------:|:------:|
+| **Overall** | **7.4%** | 6.3–8.7 |
+| Rural residents | 45.5% of depressed | 37.3–53.9 |
+| Urban residents | 54.5% of depressed | 46.1–62.7 |
+| Rural share of total sample | 54.98% | 51.47–58.45 |
+| Urban share of total sample | 45.02% | 41.55–48.53 |
 
-### Rural-Stratified Model
+### Main Result — Decision-Making Autonomy and Depression
 
-| Factor | Direction | OR (95% CI) |
-|:-------|:---------:|:-----------:|
-| Older age | ↓ Protective | — |
-| Cohabitation 18–20 yrs | ↓ Protective | 0.34 (0.16–0.72) |
-| Cohabitation ≥21 yrs | ↓ Protective | 0.36 (0.17–0.75) |
-| Maternal employment | ↓ Protective | 0.48 (0.27–0.83) |
+| Level | COR (95% CI) | AOR (95% CI) | p-value |
+|:------|:------------:|:------------:|:-------:|
+| **National** | 0.83 (0.56–1.23) | **0.63 (0.39–0.98)** | 0.048 |
+| **Rural** | — | **0.44 (0.27–0.74)** | 0.002 |
+| **Urban** | — | 0.88 (0.39–1.97) | 0.758 |
 
-### Urban-Stratified Model
+> Reference: No decision-making autonomy. Adjusted for: women's age, education, maternal employment, religion, administrative division, age at first birth, age at cohabitation, number of children, pregnancy status, pregnancy loss, place of residence, toilet facilities, water access, household head sex, household size, wealth status, media access, internet use, household assets, and household materials.
 
-| Factor | Direction | OR (95% CI) |
-|:-------|:---------:|:-----------:|
-| Late sexual debut ≥18 yrs | ↓ Protective | 0.51 (0.29–0.91) |
-| IPV justification | ↓ Protective | 0.45 (0.22–0.94) |
-| Improved water access | ↑ Risk | 5.59 (1.42–21.99) |
-| Improved household materials | ↓ Protective | 0.15 (0.04–0.50) |
+### Spatial Findings
+
+| Region | Depression | Autonomy |
+|:-------|:----------:|:--------:|
+| **Maseru, Berea, Leribe, Butha-Buthe** (central–north) | 🔴 Highest | Relatively higher |
+| **Quthing, Qacha's Nek, Mohale's Hoek, Mafeteng** (south/south-west) | 🟢 Lower | 🔴 Lowest |
+| **Thaba-Tseka, Mokhotlong** | Lower burden | Moderate |
 
 ### Model Performance
 
 | Metric | Value | Interpretation |
 |:-------|:-----:|:--------------|
-| AUC | **0.676** | Moderate discriminative ability |
-| Hosmer–Lemeshow p | **0.732** | Good model fit |
-| Overall depression prevalence | **~7%** | ≈ 1 in 14 ever-married women |
+| AUC | **0.6781** | Moderate discriminative ability |
+| Hosmer–Lemeshow χ² | **5.85** | — |
+| Hosmer–Lemeshow p | **0.6642** | Good model fit |
+| AIC | **1648.22** | Final model selection |
+| BIC | **1886.15** | Final model selection |
+| Mean VIF | **2.2** | No significant multicollinearity |
 
 ---
 
@@ -297,8 +341,8 @@ Rural-Urban-Inequalities-in-Depression-among-Ever-Married-Women-in-Lesotho/
 
 | Figure | Description | File |
 |:-------|:------------|:-----|
-| 🗺️ Depression Prevalence Map | District-level choropleth: highest in Berea, Maseru, Leribe, Butha-Buthe | `Rplot01.tiff` |
-| 🗺️ Decision Autonomy Map | District-level spatial distribution of decision autonomy | `Rplot02.tiff` |
+| 🗺️ Depression Prevalence Map | District-level choropleth: highest burden in Maseru, Berea, Leribe, Butha-Buthe | `Rplot01.tiff` |
+| 🗺️ Decision Autonomy Map | Lowest autonomy in southern/south-western provinces | `Rplot02.tiff` |
 
 ---
 
@@ -306,36 +350,40 @@ Rural-Urban-Inequalities-in-Depression-among-Ever-Married-Women-in-Lesotho/
 
 | Domain | Contribution |
 |:-------|:-------------|
-| **Mental Health** | First rural–urban stratified analysis of depression in Lesotho using DHS |
-| **Public Health** | Evidence for SDG 3 — Good Health and Well-Being |
-| **Women's Health** | Targets ever-married women, a priority but under-researched group |
-| **Health Policy** | Actionable insights for district-targeted mental health programs |
-| **Methodology** | Survey-weighted regression with spatial mapping for LMIC context |
-| **Equity** | Exposes geographic and socioeconomic inequalities in mental health |
+| **Mental Health** | First study linking decision-making autonomy to depression with rural–urban stratification in Lesotho using nationally representative DHS data |
+| **Public Health** | Evidence for SDG 3 — Good Health and Well-Being; SDG 5 — Gender Equality |
+| **Women's Health** | Identifies autonomy as a modifiable protective factor for rural women's mental health |
+| **Health Policy** | Actionable district-level evidence for targeted mental health resource allocation |
+| **Methodology** | Survey-weighted multivariable regression + spatial mapping; STROBE-compliant |
+| **Equity** | Exposes geographic (central–north vs. south) and rural–urban inequalities in mental health burden |
 
 ---
 
 ## Policy Implications
 
-1. **Targeted interventions** for women with high parity (≥3 children) — the strongest modifiable risk factor nationally
-2. **Urban-specific programs** addressing early sexual debut and IPV as depression drivers
-3. **Rural employment support** for women — maternal employment significantly protective in rural areas
-4. **District prioritization**: Berea, Maseru, Leribe, and Butha-Buthe require urgent mental health resources
-5. **Water & housing** quality improvements in urban areas may have mental health co-benefits
+1. **Empower rural women** through decision-making autonomy programs — the effect is significant and strong (AOR = 0.44) in rural settings where structural barriers are greatest
+2. **Target central–northern districts** (Maseru, Berea, Leribe, Butha-Buthe) with expanded mental health services and community awareness
+3. **Address urban stressors** — economic insecurity and social isolation may undermine the protective role of autonomy in urban areas
+4. **Integrate empowerment strategies** into maternal and reproductive health programs across both rural and urban contexts
+5. **Prioritize southern/south-western provinces** (Quthing, Qacha's Nek, Mohale's Hoek, Mafeteng) for women's empowerment interventions, given the lowest autonomy levels observed
+6. **Context-sensitive approaches** — risk factors and protective mechanisms differ meaningfully by residence type; one-size-fits-all policies are insufficient
 
 ---
 
 ## Citation
 
 ```bibtex
-@article{miah_kabir_depression_lesotho_2025,
-  title   = {Rural--Urban Inequalities in Depression among Ever-Married Women in
-             Lesotho: Evidence from the 2023--24 Demographic and Health Survey},
+@article{miah_kabir_autonomy_depression_lesotho_2026,
+  title   = {Decision-Making Autonomy and Depressive Symptoms Among Women in Lesotho:
+             Rural--Urban Differences},
   author  = {Miah, Md Salek and Kabir, Maria Bintey},
-  journal = {[Journal Name]},
-  year    = {2025},
-  note    = {Q1 Journal Submission},
-  url     = {https://github.com/muhammadsalek/Rural-Urban-Inequalities-in-Depression-among-Ever-Married-Women-in-Lesotho}
+  journal = {Journal of Affective Disorders Reports},
+  volume  = {},
+  pages   = {101080},
+  year    = {2026},
+  note    = {In Press, Journal Pre-proof. Available online 13 May 2026.},
+  doi     = {10.1016/j.jadr.2026.101080},
+  url     = {https://doi.org/10.1016/j.jadr.2026.101080}
 }
 ```
 
@@ -358,6 +406,7 @@ Sylhet-3114, Bangladesh
 [![DHS Program](https://img.shields.io/badge/Data-DHS%20Program%20%7C%20USAID-00d4ff?style=flat-square)](https://dhsprogram.com)
 [![Spatial](https://img.shields.io/badge/Spatial%20Analysis-R%20%2F%20ggplot2-276DC3?style=flat-square&logo=r&logoColor=white)](https://www.r-project.org)
 [![SUST](https://img.shields.io/badge/University-SUST%20Bangladesh-f59e0b?style=flat-square)](https://www.sust.edu)
+[![DOI](https://img.shields.io/badge/DOI-10.1016%2Fj.jadr.2026.101080-blue?style=flat-square)](https://doi.org/10.1016/j.jadr.2026.101080)
 
 *⭐ Star this repository if it supported your research!*
 
