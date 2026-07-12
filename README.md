@@ -1,6 +1,8 @@
-# Rural–Urban Inequalities in Depression among Ever-Married Women in Lesotho
-
 <div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0f0f,50:1A478B,100:e11d48&height=220&section=header&text=Rural-Urban%20Depression%20Inequalities&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Decision-Making%20Autonomy%20%26%20Mental%20Health%20among%20Women%20in%20Lesotho&descAlignY=58&descSize=18" width="100%"/>
+
+<img src="https://readme-typing-svg.demolab.com/?lines=Ever-Married+Women+%C2%B7+Lesotho+%C2%B7+LDHS+2023%E2%80%9324;Decision-Making+Autonomy+%C2%B7+PHQ-9+%C2%B7+Rural-Urban+Strata;Published+%7C+Journal+of+Affective+Disorders+Reports+2026;Survey-Weighted+Logistic+Regression+%C2%B7+Spatial+Mapping&font=Fira+Code&center=true&width=800&height=45&color=e11d48&vCenter=true&size=20&pause=1200" />
 
 [![License](https://img.shields.io/badge/License-MIT-e11d48?style=for-the-badge&labelColor=0f0f0f&logo=opensourceinitiative&logoColor=e11d48)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Published-22c55e?style=for-the-badge&labelColor=0f0f0f)](https://doi.org/10.1016/j.jadr.2026.101080)
@@ -13,11 +15,14 @@
 <div align="center">
 
 ![Stata](https://img.shields.io/badge/Stata-1A478B?style=flat-square&logo=stata&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
 ![DHS](https://img.shields.io/badge/DHS_2023--24-USAID%20Funded-00d4ff?style=flat-square&logoColor=white)
 ![PHQ-9](https://img.shields.io/badge/Tool-PHQ--9%20Scale-e11d48?style=flat-square&logoColor=white)
 ![Design](https://img.shields.io/badge/Design-Cross--Sectional-f59e0b?style=flat-square&logoColor=white)
 ![Analysis](https://img.shields.io/badge/Analysis-Multivariable%20Logistic-10b981?style=flat-square&logoColor=white)
 ![Spatial](https://img.shields.io/badge/Mapping-District--Level%20Spatial-6366f1?style=flat-square&logoColor=white)
+![DOI](https://img.shields.io/badge/DOI-10.1016%2Fj.jadr.2026.101080-blue?style=flat-square)
+[![YouTube](https://img.shields.io/badge/YouTube-Salek%20Research%20Hub-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@SalekResearch)
 
 </div>
 
@@ -27,13 +32,38 @@
 
 ```
 ╔══════════════════════════════════════════════════════════════════════════╗
-║  🧠  3,297 Ever-Married Women  ·  Lesotho  ·  2023–24 DHS  ·  USAID   ║
-║  📍  Rural–Urban Stratified Analysis  ·  10 Districts  ·  PHQ-9        ║
-║  📊  Prevalence: 7.4%  ·  AUC: 0.68  ·  H-L p = 0.6642               ║
+║  🧠  3,297 Ever-Married Women  ·  Lesotho  ·  2023–24 DHS  ·  USAID     ║
+║  📍  Rural–Urban Stratified Analysis  ·  10 Districts  ·  PHQ-9         ║
+║  📊  Prevalence: 7.4%  ·  AUC: 0.68  ·  H-L p = 0.6642                  ║
+║  📰  Published  ·  In Production  ·  Response to Reviewers Complete     ║
 ╚══════════════════════════════════════════════════════════════════════════╝
 ```
 
 </div>
+
+---
+
+## 📽️ Learn the Full Workflow — Salek Research Hub
+
+<div align="center">
+
+<a href="https://www.youtube.com/@SalekResearch">
+<img src="https://img.shields.io/badge/▶️%20Watch%20on%20YouTube-Salek%20Research%20Hub-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
+</a>
+
+</div>
+
+Every step behind this repository — data cleaning in Stata, survey-weighted regression, spatial mapping in R, and manuscript revision through peer review — is explained in full on my YouTube channel, **[Salek Research Hub](https://www.youtube.com/@SalekResearch)**, including the **"100 Days of Research"** series built for Bangladeshi Masters/PhD students and early-career researchers.
+
+| Topic | Where to find it |
+|:------|:------------------|
+| 🎥 DHS data cleaning & PHQ-9 scoring in Stata | [Salek Research Hub](https://www.youtube.com/@SalekResearch) |
+| 🎥 Survey-weighted logistic regression walkthrough | [Salek Research Hub](https://www.youtube.com/@SalekResearch) |
+| 🎥 District-level spatial mapping in R | [Salek Research Hub](https://www.youtube.com/@SalekResearch) |
+| 🎥 Responding to reviewer comments & revising a manuscript | [Salek Research Hub](https://www.youtube.com/@SalekResearch) |
+| 🎥 100 Days of Research series | [Salek Research Hub](https://www.youtube.com/@SalekResearch) |
+
+> 🔔 Subscribe for step-by-step, reproducible walkthroughs of every dataset and script in this repository.
 
 ---
 
@@ -43,13 +73,33 @@
 
 **Journal:** *Journal of Affective Disorders Reports* — Available online **13 May 2026**
 **DOI:** [https://doi.org/10.1016/j.jadr.2026.101080](https://doi.org/10.1016/j.jadr.2026.101080)
-**Article:** 101080 | In Press, Journal Pre-proof | Open Access (Creative Commons)
+**Article:** 101080 | Published | Open Access (Creative Commons)
 
 **Authors:** Md Salek Miah<sup>a</sup> · Maria Bintey Kabir<sup>b,c</sup>
 
 <sup>a</sup> Department of Statistics, Shahjalal University of Science & Technology (SUST), Sylhet-3114, Bangladesh
 <sup>b</sup> Shaheed Suhrawardy Medical College, Dhaka-1207, Bangladesh
 <sup>c</sup> Study Physician, Projahnmo Research Foundation, Dhaka-1213, Bangladesh
+
+### 🧭 Editorial Journey
+
+```
+Submission  ──▶  Peer Review  ──▶  Revision (R1)  ──▶  Editor Decision  ──▶  Accepted  ──▶  Production
+JADR-D-26-00039        │                 │                                                       │
+                        │                 │                                                       ▼
+              Editors & Reviewers    Response to Reviewers                              Pagination · DOI Assignment
+                 Comments                (point-by-point)                                Article 101080 · Live
+```
+
+| Stage | File in repository |
+|:------|:--------------------|
+| 📝 Original submission | `JADR-D-26-00039_R1.pdf` |
+| 🗒️ Editor & reviewer comments | `Editors and Reviewrs comments.docx` |
+| ↩️ Response to reviewers | `Response_Letters.pdf` |
+| ✍️ Cleaned manuscript | `Miah_Manuscript_2026_Cleaned.docx` |
+| ✍️ Revised manuscript | `Miah_Manuscript_2026_Revised.docx` |
+| 📬 Session / production report | `JADR_101080_session_report.pdf` |
+| 📑 Final pagination proof | `pagination_JADR_101080.pdf` |
 
 ---
 
@@ -84,7 +134,11 @@ LDHS 2023–24  (Cross-Sectional · Nationally Representative · USAID-Funded)
    Model Assessment     AUC · Hosmer–Lemeshow · VIF · AIC · BIC
           │
           ▼
-   Outputs              TIFF spatial figures · adjusted ORs · policy brief
+   Peer Review          editor & reviewer comments · point-by-point response
+          │
+          ▼
+   Outputs               TIFF spatial figures · graphical abstract · adjusted ORs ·
+                         policy brief · published article (DOI 101080)
 ```
 
 ---
@@ -129,6 +183,8 @@ Women's decision-making autonomy is significantly associated with **lower odds o
 
 > 🌍 Significant **rural–urban heterogeneity** — autonomy protective effect statistically significant only in rural areas
 
+> ✅ Article now **published** — full editorial history, reviewer responses, and production files openly archived in this repository
+
 ---
 
 ## Authors
@@ -143,6 +199,7 @@ Shahjalal University of Science and Technology (SUST), Sylhet-3114, Bangladesh
 📧 [saleksta@gmail.com](mailto:saleksta@gmail.com) · [2021134066@student.sust.edu](mailto:2021134066@student.sust.edu)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0005--5973--461X-A6CE39?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0009-0005-5973-461X)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Md_Salek_Miah-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/md-salek-miah-b34309329/)
+[![YouTube](https://img.shields.io/badge/YouTube-Salek%20Research%20Hub-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@SalekResearch)
 
 ### Co-Author
 
@@ -163,7 +220,7 @@ This study used secondary data from the **Lesotho Demographic and Health Survey 
 | 📅 **Survey Period** | 27 November 2023 – 29 February 2024 |
 | 🌍 **Country** | Lesotho |
 | 🔗 **Source** | [DHS Program — USAID Funded](https://dhsprogram.com) |
-| 📄 **Survey Report** | FR391.pdf (included in repository) |
+| 📄 **Survey Report** | `FR391.pdf` (included in repository) |
 | 👩 **Final Sample (n)** | **3,297** ever-married women |
 | 🏥 **Depression Tool** | Patient Health Questionnaire-9 (PHQ-9 ≥ 10) |
 | 🛡️ **Exposure** | Decision-making autonomy (composite index, 5 domains) |
@@ -190,12 +247,12 @@ Subsampled: PHQ-9 depression module respondents
           │
           ▼
               ┌──────────────────────────────────────────┐
-              │   Final Weighted Sample: n = 3,297       │
-              ├──────────────────┬───────────────────────┤
-              │  🌾 Rural 55.0%  │   n = 2,086           │
-              │  🏙️ Urban 45.0%  │   n = 1,211           │
-              │  📍 10 Districts │   Spatial mapping      │
-              └──────────────────┴───────────────────────┘
+              │   Final Weighted Sample: n = 3,297        │
+              ├──────────────────┬─────────────────────────┤
+              │  🌾 Rural 55.0%  │   n = 2,086              │
+              │  🏙️ Urban 45.0%  │   n = 1,211              │
+              │  📍 10 Districts │   Spatial mapping         │
+              └──────────────────┴─────────────────────────┘
 ```
 
 ---
@@ -207,19 +264,34 @@ Rural-Urban-Inequalities-in-Depression-among-Ever-Married-Women-in-Lesotho/
 │
 ├── README.md
 │
-├── Data management.do          ← Data cleaning · recoding · PHQ-9 scoring · labeling
-├── Analysis.do                 ← Survey-weighted logistic regression · stratified models
-├── Spatials.do                 ← District-level spatial mapping code
+├── 📊 Data & Analysis Scripts
+│   ├── Data management.do              ← Cleaning · recoding · PHQ-9 scoring · labeling
+│   ├── Analysis.do                     ← Survey-weighted logistic regression · stratified models
+│   ├── Spatials.do                     ← District-level spatial mapping code
+│   └── clean_data_emp.dta              ← Cleaned Stata dataset (analysis-ready)
 │
-├── clean_data_emp.dta          ← Cleaned Stata dataset (analysis-ready)
+├── 🗺️ Spatial & Visual Outputs
+│   ├── Rplot01.tiff                    ← Depression prevalence spatial figure (300 DPI)
+│   ├── Rplot02.tiff                    ← Decision autonomy prevalence spatial figure (300 DPI)
+│   ├── Figure 3.tif                    ← Published Figure 3 (journal-formatted)
+│   ├── Figure 4.tif                    ← Published Figure 4 (journal-formatted)
+│   ├── Picture5.tif                    ← Supplementary figure
+│   └── Graphical_abstract.pdf          ← Journal graphical abstract
 │
-├── Rplot01.tiff                ← Depression prevalence spatial figure (300 DPI)
-├── Rplot02.tiff                ← Decision autonomy prevalence spatial figure (300 DPI)
+├── 📝 Manuscript & Peer Review
+│   ├── Miah_Manuscript_2026_Cleaned.docx    ← Clean manuscript (no tracked changes)
+│   ├── Miah_Manuscript_2026_Revised.docx    ← Revised manuscript (post-review)
+│   ├── Editors and Reviewrs comments.docx   ← Editor & reviewer feedback
+│   ├── Response_Letters.pdf                 ← Point-by-point response to reviewers
+│   ├── JADR-D-26-00039_R1.pdf                ← Submission / revision record
+│   ├── JADR_101080_session_report.pdf        ← Production session report
+│   └── pagination_JADR_101080.pdf            ← Final pagination proof
 │
-├── FR391.pdf                   ← LDHS 2023–24 official survey report
+├── 📚 Reference Data
+│   └── FR391.pdf                       ← LDHS 2023–24 official survey report
 │
 ├── .gitignore
-└── LICENSE                     ← MIT License
+└── LICENSE                             ← MIT License
 ```
 
 ---
@@ -337,12 +409,16 @@ Women scored 1 point per domain if they reported deciding **alone or jointly** w
 
 ---
 
-## Spatial Figures
+## Figures & Visual Outputs
 
 | Figure | Description | File |
 |:-------|:------------|:-----|
 | 🗺️ Depression Prevalence Map | District-level choropleth: highest burden in Maseru, Berea, Leribe, Butha-Buthe | `Rplot01.tiff` |
 | 🗺️ Decision Autonomy Map | Lowest autonomy in southern/south-western provinces | `Rplot02.tiff` |
+| 📈 Figure 3 | Published journal figure (final formatted version) | `Figure 3.tif` |
+| 📈 Figure 4 | Published journal figure (final formatted version) | `Figure 4.tif` |
+| 🖼️ Picture 5 | Supplementary visual | `Picture5.tif` |
+| 🧩 Graphical Abstract | Three-panel visual summary of study design, exposure, and key finding | `Graphical_abstract.pdf` |
 
 ---
 
@@ -356,6 +432,7 @@ Women scored 1 point per domain if they reported deciding **alone or jointly** w
 | **Health Policy** | Actionable district-level evidence for targeted mental health resource allocation |
 | **Methodology** | Survey-weighted multivariable regression + spatial mapping; STROBE-compliant |
 | **Equity** | Exposes geographic (central–north vs. south) and rural–urban inequalities in mental health burden |
+| **Open Science** | Full editorial trail — submission, reviewer comments, response letters, and production files — openly archived for reproducibility and teaching |
 
 ---
 
@@ -381,7 +458,7 @@ Women scored 1 point per domain if they reported deciding **alone or jointly** w
   volume  = {},
   pages   = {101080},
   year    = {2026},
-  note    = {In Press, Journal Pre-proof. Available online 13 May 2026.},
+  note    = {Published. Available online 13 May 2026.},
   doi     = {10.1016/j.jadr.2026.101080},
   url     = {https://doi.org/10.1016/j.jadr.2026.101080}
 }
@@ -407,7 +484,10 @@ Sylhet-3114, Bangladesh
 [![Spatial](https://img.shields.io/badge/Spatial%20Analysis-R%20%2F%20ggplot2-276DC3?style=flat-square&logo=r&logoColor=white)](https://www.r-project.org)
 [![SUST](https://img.shields.io/badge/University-SUST%20Bangladesh-f59e0b?style=flat-square)](https://www.sust.edu)
 [![DOI](https://img.shields.io/badge/DOI-10.1016%2Fj.jadr.2026.101080-blue?style=flat-square)](https://doi.org/10.1016/j.jadr.2026.101080)
+[![YouTube](https://img.shields.io/badge/YouTube-Salek%20Research%20Hub-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@SalekResearch)
 
 *⭐ Star this repository if it supported your research!*
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:e11d48,50:1A478B,100:0f0f0f&height=100&section=footer" width="100%"/>
 
 </div>
