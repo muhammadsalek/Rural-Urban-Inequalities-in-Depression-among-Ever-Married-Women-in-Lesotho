@@ -1,14 +1,22 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0f0f,50:1A478B,100:e11d48&height=220&section=header&text=Rural-Urban%20Depression%20Inequalities&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Decision-Making%20Autonomy%20%26%20Mental%20Health%20among%20Women%20in%20Lesotho&descAlignY=58&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=200&section=header&text=Rural-Urban%20Depression%20Inequalities&fontSize=34&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Decision-Making%20Autonomy%20and%20Mental%20Health%20among%20Women%20in%20Lesotho&descAlignY=55&descSize=15" width="100%" alt="header banner"/>
 
-<img src="https://readme-typing-svg.demolab.com/?lines=Ever-Married+Women+%C2%B7+Lesotho+%C2%B7+LDHS+2023%E2%80%9324;Decision-Making+Autonomy+%C2%B7+PHQ-9+%C2%B7+Rural-Urban+Strata;Published+%7C+Journal+of+Affective+Disorders+Reports+2026;Survey-Weighted+Logistic+Regression+%C2%B7+Spatial+Mapping&font=Fira+Code&center=true&width=800&height=45&color=e11d48&vCenter=true&size=20&pause=1200" />
+</div>
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1200&color=E11D48&center=true&vCenter=true&width=800&height=45&lines=Ever-Married+Women+%7C+Lesotho+%7C+LDHS+2023-24;Decision-Making+Autonomy+%7C+PHQ-9+%7C+Rural-Urban+Strata;Published+%7C+Journal+of+Affective+Disorders+Reports+2026;Survey-Weighted+Logistic+Regression+%7C+Spatial+Mapping" alt="typing banner"/>
+
+</div>
+
+<div align="center">
 
 [![License](https://img.shields.io/badge/License-MIT-e11d48?style=for-the-badge&labelColor=0f0f0f&logo=opensourceinitiative&logoColor=e11d48)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Published-22c55e?style=for-the-badge&labelColor=0f0f0f)](https://doi.org/10.1016/j.jadr.2026.101080)
-[![Journal](https://img.shields.io/badge/Journal-Journal%20of%20Affective%20Disorders%20Reports-6366f1?style=for-the-badge&labelColor=0f0f0f)](https://doi.org/10.1016/j.jadr.2026.101080)
-[![N](https://img.shields.io/badge/Sample-3%2C297%20Women-10b981?style=for-the-badge&labelColor=0f0f0f)](https://github.com)
-[![Country](https://img.shields.io/badge/Country-Lesotho-0ea5e9?style=for-the-badge&labelColor=0f0f0f)](https://github.com)
+[![Journal](https://img.shields.io/badge/Journal-JADR-6366f1?style=for-the-badge&labelColor=0f0f0f)](https://doi.org/10.1016/j.jadr.2026.101080)
+[![N](https://img.shields.io/badge/Sample-3%2C297%20Women-10b981?style=for-the-badge&labelColor=0f0f0f)](#study-design--data-source)
+[![Country](https://img.shields.io/badge/Country-Lesotho-0ea5e9?style=for-the-badge&labelColor=0f0f0f)](#study-design--data-source)
 
 </div>
 
@@ -18,11 +26,22 @@
 ![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
 ![DHS](https://img.shields.io/badge/DHS_2023--24-USAID%20Funded-00d4ff?style=flat-square&logoColor=white)
 ![PHQ-9](https://img.shields.io/badge/Tool-PHQ--9%20Scale-e11d48?style=flat-square&logoColor=white)
+![STROBE](https://img.shields.io/badge/Reporting-STROBE%20Compliant-64748b?style=flat-square)
 ![Design](https://img.shields.io/badge/Design-Cross--Sectional-f59e0b?style=flat-square&logoColor=white)
 ![Analysis](https://img.shields.io/badge/Analysis-Multivariable%20Logistic-10b981?style=flat-square&logoColor=white)
 ![Spatial](https://img.shields.io/badge/Mapping-District--Level%20Spatial-6366f1?style=flat-square&logoColor=white)
 ![DOI](https://img.shields.io/badge/DOI-10.1016%2Fj.jadr.2026.101080-blue?style=flat-square)
+
+</div>
+
+<div align="center">
+
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0005--5973--461X-A6CE39?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0009-0005-5973-461X)
+[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-Md%20Salek%20Miah-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=oV99NYoAAAAJ)
+[![ResearchGate](https://img.shields.io/badge/ResearchGate-Md%20Salek%20Miah-00CCBB?style=flat-square&logo=researchgate&logoColor=white)](https://www.researchgate.net/profile/Md-Salek-Miah)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Md_Salek_Miah-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/md-salek-miah-b34309329/)
 [![YouTube](https://img.shields.io/badge/YouTube-Salek%20Research%20Hub-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@SalekResearch)
+[![Portfolio](https://img.shields.io/badge/Portfolio-salek--protfolio.vercel.app-111827?style=flat-square&logo=vercel&logoColor=white)](https://salek-protfolio.vercel.app)
 
 </div>
 
@@ -35,11 +54,39 @@
 ║  🧠  3,297 Ever-Married Women  ·  Lesotho  ·  2023–24 DHS  ·  USAID     ║
 ║  📍  Rural–Urban Stratified Analysis  ·  10 Districts  ·  PHQ-9         ║
 ║  📊  Prevalence: 7.4%  ·  AUC: 0.68  ·  H-L p = 0.6642                  ║
-║  📰  Published  ·  In Production  ·  Response to Reviewers Complete     ║
+║  📰  Published  ·  Full Editorial Trail Archived  ·  Open Access        ║
 ╚══════════════════════════════════════════════════════════════════════════╝
 ```
 
 </div>
+
+---
+
+## 📚 Table of Contents
+
+- [Learn the Full Workflow — Salek Research Hub](#-learn-the-full-workflow--salek-research-hub)
+- [Publication Details](#-publication-details)
+- [Overview](#overview)
+- [Abstract](#abstract)
+- [Key Highlights](#-key-highlights)
+- [Authors & Contributions](#authors--contributions)
+- [Study Design & Data Source](#study-design--data-source)
+- [Repository Structure](#repository-structure)
+- [Key Variables & Measurement](#key-variables--measurement)
+- [Statistical Methods](#statistical-methods)
+- [Key Results](#key-results)
+- [Figures & Visual Outputs](#figures--visual-outputs)
+- [Reproducibility — How to Run This Analysis](#-reproducibility--how-to-run-this-analysis)
+- [Data Availability Statement](#data-availability-statement)
+- [Ethical Considerations](#ethical-considerations)
+- [Funding & Conflict of Interest](#funding--conflict-of-interest)
+- [Strengths & Limitations](#strengths--limitations)
+- [Related Work from the Author](#related-work-from-the-author)
+- [Research Impact](#research-impact)
+- [Policy Implications](#policy-implications)
+- [Citation](#citation)
+- [Acknowledgments](#acknowledgments)
+- [License](#license)
 
 ---
 
@@ -48,22 +95,22 @@
 <div align="center">
 
 <a href="https://www.youtube.com/@SalekResearch">
-<img src="https://img.shields.io/badge/▶️%20Watch%20on%20YouTube-Salek%20Research%20Hub-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
+<img src="https://img.shields.io/badge/▶️%20Watch%20on%20YouTube-Salek%20Research%20Hub-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube channel"/>
 </a>
 
 </div>
 
-Every step behind this repository — data cleaning in Stata, survey-weighted regression, spatial mapping in R, and manuscript revision through peer review — is explained in full on my YouTube channel, **[Salek Research Hub](https://www.youtube.com/@SalekResearch)**, including the **"100 Days of Research"** series built for Bangladeshi Masters/PhD students and early-career researchers.
+Every methodological step behind this repository — DHS data cleaning in Stata, survey-weighted regression, spatial mapping in R, and manuscript revision through peer review — is explained in full on **[Salek Research Hub](https://www.youtube.com/@SalekResearch)**, including the **"100 Days of Research"** series designed for Bangladeshi Master's/PhD students and early-career researchers building reproducible DHS-based research pipelines.
 
-| Topic | Where to find it |
-|:------|:------------------|
-| 🎥 DHS data cleaning & PHQ-9 scoring in Stata | [Salek Research Hub](https://www.youtube.com/@SalekResearch) |
-| 🎥 Survey-weighted logistic regression walkthrough | [Salek Research Hub](https://www.youtube.com/@SalekResearch) |
-| 🎥 District-level spatial mapping in R | [Salek Research Hub](https://www.youtube.com/@SalekResearch) |
-| 🎥 Responding to reviewer comments & revising a manuscript | [Salek Research Hub](https://www.youtube.com/@SalekResearch) |
-| 🎥 100 Days of Research series | [Salek Research Hub](https://www.youtube.com/@SalekResearch) |
+| Topic | Description |
+|:------|:------------|
+| 🎥 DHS data cleaning & PHQ-9 scoring in Stata | Recoding, survey weighting, and composite index construction walkthrough |
+| 🎥 Survey-weighted logistic regression | Stepwise model building (Model 0 → Model 4), diagnostics, and interpretation |
+| 🎥 District-level spatial mapping in R | Choropleth construction with `ggplot2` / spatial packages |
+| 🎥 Responding to reviewer comments | How the point-by-point response and manuscript revision for this paper were prepared |
+| 🎥 100 Days of Research series | Structured, day-by-day research skill-building for early-career researchers |
 
-> 🔔 Subscribe for step-by-step, reproducible walkthroughs of every dataset and script in this repository.
+> 🔔 Subscribe at **[youtube.com/@SalekResearch](https://www.youtube.com/@SalekResearch)** for reproducible, script-level walkthroughs of every dataset and `.do`/`.R` file in this and related repositories.
 
 ---
 
@@ -71,9 +118,14 @@ Every step behind this repository — data cleaning in Stata, survey-weighted re
 
 > **Decision-Making Autonomy and Depressive Symptoms Among Women in Lesotho: Rural–Urban Differences**
 
-**Journal:** *Journal of Affective Disorders Reports* — Available online **13 May 2026**
-**DOI:** [https://doi.org/10.1016/j.jadr.2026.101080](https://doi.org/10.1016/j.jadr.2026.101080)
-**Article:** 101080 | Published | Open Access (Creative Commons)
+| | |
+|:--|:--|
+| **Journal** | *Journal of Affective Disorders Reports* |
+| **Article** | 101080 |
+| **Status** | Published · Open Access (Creative Commons) |
+| **Available online** | 13 May 2026 |
+| **DOI** | [10.1016/j.jadr.2026.101080](https://doi.org/10.1016/j.jadr.2026.101080) |
+| **Manuscript ID** | JADR-D-26-00039 |
 
 **Authors:** Md Salek Miah<sup>a</sup> · Maria Bintey Kabir<sup>b,c</sup>
 
@@ -84,28 +136,37 @@ Every step behind this repository — data cleaning in Stata, survey-weighted re
 ### 🧭 Editorial Journey
 
 ```
-Submission  ──▶  Peer Review  ──▶  Revision (R1)  ──▶  Editor Decision  ──▶  Accepted  ──▶  Production
-JADR-D-26-00039        │                 │                                                       │
-                        │                 │                                                       ▼
-              Editors & Reviewers    Response to Reviewers                              Pagination · DOI Assignment
-                 Comments                (point-by-point)                                Article 101080 · Live
+Submission (JADR-D-26-00039)
+        │
+        ▼
+Peer Review  ──▶  Editors & Reviewers Comments  ──▶  Response to Reviewers (point-by-point)
+        │
+        ▼
+Revision (R1)  ──▶  Manuscript Cleaned & Revised Versions
+        │
+        ▼
+Editor Decision  ──▶  Accepted
+        │
+        ▼
+Production  ──▶  Session Report  ──▶  Pagination Proof  ──▶  DOI 101080  ──▶  Published & Live
 ```
 
-| Stage | File in repository |
+| Stage | File in Repository |
 |:------|:--------------------|
-| 📝 Original submission | `JADR-D-26-00039_R1.pdf` |
+| 📝 Original submission record | `JADR-D-26-00039_R1.pdf` |
 | 🗒️ Editor & reviewer comments | `Editors and Reviewrs comments.docx` |
-| ↩️ Response to reviewers | `Response_Letters.pdf` |
-| ✍️ Cleaned manuscript | `Miah_Manuscript_2026_Cleaned.docx` |
-| ✍️ Revised manuscript | `Miah_Manuscript_2026_Revised.docx` |
-| 📬 Session / production report | `JADR_101080_session_report.pdf` |
+| ↩️ Point-by-point response to reviewers | `Response_Letters.pdf` |
+| ✍️ Cleaned manuscript (final, no tracked changes) | `Miah_Manuscript_2026_Cleaned.docx` |
+| ✍️ Revised manuscript (post-review, tracked) | `Miah_Manuscript_2026_Revised.docx` |
+| 📬 Production / session report | `JADR_101080_session_report.pdf` |
 | 📑 Final pagination proof | `pagination_JADR_101080.pdf` |
+| 🧩 Graphical abstract | `Graphical_abstract.pdf` |
 
 ---
 
 ## Overview
 
-This study investigates **decision-making autonomy and depressive symptoms** among ever-married women in Lesotho, with a focus on **rural–urban inequalities** and **province-level spatial disparities**, using data from the nationally representative **Lesotho Demographic and Health Survey (LDHS) 2023–24**, funded by USAID. Depression was assessed using the **Patient Health Questionnaire-9 (PHQ-9 ≥ 10)**, and **survey-weighted multivariable logistic regression** was used to identify associations — with stratified analyses for rural and urban women, and spatial choropleth mapping at the district level.
+This study investigates **decision-making autonomy and depressive symptoms** among ever-married women in Lesotho, with a focus on **rural–urban inequalities** and **province-level spatial disparities**, using data from the nationally representative **Lesotho Demographic and Health Survey (LDHS) 2023–24**, funded by USAID. Depression was assessed using the **Patient Health Questionnaire-9 (PHQ-9 ≥ 10)**, and **survey-weighted multivariable logistic regression** was used to identify associations — with stratified analyses for rural and urban women and spatial choropleth mapping at the district level.
 
 **Analysis Pipeline:**
 
@@ -134,7 +195,7 @@ LDHS 2023–24  (Cross-Sectional · Nationally Representative · USAID-Funded)
    Model Assessment     AUC · Hosmer–Lemeshow · VIF · AIC · BIC
           │
           ▼
-   Peer Review          editor & reviewer comments · point-by-point response
+   Peer Review          editor & reviewer comments · point-by-point response · revision
           │
           ▼
    Outputs               TIFF spatial figures · graphical abstract · adjusted ORs ·
@@ -145,20 +206,24 @@ LDHS 2023–24  (Cross-Sectional · Nationally Representative · USAID-Funded)
 
 ## Abstract
 
+### Background
+Depression among women in low- and middle-income countries is shaped by structural gender inequality, and women's decision-making autonomy has been proposed as a modifiable determinant of mental health, yet evidence from Southern Africa remains limited, and rural–urban heterogeneity in this relationship is rarely examined.
+
 ### Objectives
 To assess the association between depressive symptoms and decision-making autonomy with rural–urban inequalities, and to map province-level spatial disparities in depression prevalence among ever-married women in Lesotho.
 
 ### Methods
-This study used cross-sectional data from **3,297 ever-married women aged 15–49 years** from the **2023–24 Lesotho Demographic and Health Survey (LDHS)**. Depression was measured using the **Patient Health Questionnaire-9 (PHQ-9 ≥ 10)**. Women's decision-making autonomy was measured using a **composite empowerment index** based on participation in five household decision-making domains. Survey-weighted multivariable logistic regression models were fitted at the national level and **stratified by place of residence**. Model discrimination was assessed using the **AUC**. Spatial analyses were conducted to examine **district-level variation** in depression prevalence and autonomy.
+This study used cross-sectional data from **3,297 ever-married women aged 15–49 years** from the **2023–24 Lesotho Demographic and Health Survey (LDHS)**. Depression was measured using the **Patient Health Questionnaire-9 (PHQ-9 ≥ 10)**. Women's decision-making autonomy was measured using a **composite empowerment index** based on participation in five household decision-making domains. Survey-weighted multivariable logistic regression models were fitted at the national level and **stratified by place of residence**. Model discrimination was assessed using the **AUC**, calibration using the **Hosmer–Lemeshow test**, and multicollinearity using **VIF**. Spatial analyses were conducted to examine **district-level variation** in depression prevalence and autonomy.
 
 ### Results
 
 - **Overall depression prevalence:** 7.4% (95% CI: 6.3–8.7)
-- Women with decision-making autonomy showed **lower odds of depression nationally** (AOR = 0.63; 95% CI: 0.39–0.98)
-- The protective effect was **stronger in rural areas** (AOR = 0.44; 95% CI: 0.27–0.74)
-- In **urban areas**, the association was not statistically significant (AOR = 0.88; 95% CI: 0.39–1.97)
+- Women with decision-making autonomy showed **lower odds of depression nationally** (AOR = 0.63; 95% CI: 0.39–0.98; *p* = 0.048)
+- The protective effect was **stronger in rural areas** (AOR = 0.44; 95% CI: 0.27–0.74; *p* = 0.002)
+- In **urban areas**, the association was not statistically significant (AOR = 0.88; 95% CI: 0.39–1.97; *p* = 0.758)
 - Depression prevalence was **highest** in central–northern districts (Maseru, Berea, Leribe, Butha-Buthe)
 - **Lowest autonomy** was observed in southern and south-western provinces (Quthing, Qacha's Nek, Mohale's Hoek, Mafeteng)
+- Final model showed **moderate discrimination** (AUC = 0.68) and **good calibration** (Hosmer–Lemeshow *p* = 0.6642)
 
 ### Conclusions
 Women's decision-making autonomy is significantly associated with **lower odds of depressive symptoms** in Lesotho, particularly among rural women. The observed rural–urban and spatial inequalities highlight the need for **context-specific mental health and reproductive health interventions** that incorporate women's empowerment as a core component.
@@ -173,31 +238,34 @@ Women's decision-making autonomy is significantly associated with **lower odds o
 
 > 🛡️ Decision-making autonomy was **protective** nationally (AOR = 0.63) and **strongly protective in rural areas** (AOR = 0.44)
 
-> 🏙️ Depression rates were **slightly higher among urban women** despite greater resource access — reflecting urban stressors
+> 🏙️ Depression rates were **slightly higher among urban women** despite greater resource access — reflecting possible urban stressors
 
 > 🔴 Highest depression burden in **Maseru, Berea, Leribe, and Butha-Buthe** (central–northern districts)
 
 > 📉 Lowest autonomy concentrated in **Quthing, Qacha's Nek, Mohale's Hoek, and Mafeteng** (southern/south-western)
 
-> 📈 Final model: **AUC = 0.68** (moderate discriminative ability) · **Hosmer–Lemeshow p = 0.6642** (good fit) · **AIC = 1648.22** · **mean VIF = 2.2**
+> 📈 Final model: **AUC = 0.68** (moderate discrimination) · **Hosmer–Lemeshow p = 0.6642** (good fit) · **AIC = 1648.22** · **mean VIF = 2.2** (no significant multicollinearity)
 
-> 🌍 Significant **rural–urban heterogeneity** — autonomy protective effect statistically significant only in rural areas
+> 🌍 Significant **rural–urban heterogeneity** — the autonomy–depression association was statistically significant only in rural areas, indicating an effect-modification pattern by place of residence
 
-> ✅ Article now **published** — full editorial history, reviewer responses, and production files openly archived in this repository
+> ✅ Article now **published**, with the full editorial history, reviewer responses, and production files openly archived in this repository for transparency and teaching purposes
 
 ---
 
-## Authors
+## Authors & Contributions
 
 ### Corresponding Author
 
 **Md Salek Miah**
-Research Assistant, Department of Statistics
-Shahjalal University of Science and Technology (SUST), Sylhet-3114, Bangladesh
-📍 Sylhet, Bangladesh
-📞 +8801687831074
+Research Assistant, Department of Statistics, Shahjalal University of Science and Technology (SUST), Sylhet-3114, Bangladesh
+Statistical Analysis Instructor, Bangladesh Institute of Innovative Health Research (BIIHR)
+GBD Collaborator, Institute for Health Metrics and Evaluation (IHME)
+
+📍 Sylhet, Bangladesh · 📞 +8801687831074
 📧 [saleksta@gmail.com](mailto:saleksta@gmail.com) · [2021134066@student.sust.edu](mailto:2021134066@student.sust.edu)
+
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0005--5973--461X-A6CE39?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0009-0005-5973-461X)
+[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-Profile-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=oV99NYoAAAAJ)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Md_Salek_Miah-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/md-salek-miah-b34309329/)
 [![YouTube](https://img.shields.io/badge/YouTube-Salek%20Research%20Hub-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@SalekResearch)
 
@@ -206,6 +274,19 @@ Shahjalal University of Science and Technology (SUST), Sylhet-3114, Bangladesh
 **Maria Bintey Kabir**
 Shaheed Suhrawardy Medical College, Dhaka-1207, Bangladesh
 Study Physician, Projahnmo Research Foundation, Dhaka-1213, Bangladesh
+
+### Author Contributions (CRediT-style)
+
+> ℹ️ The roles below follow the standard CRediT taxonomy typical of quantitative/clinical author pairings; please align exact wording with the CRediT statement published in the final article.
+
+| Role | Contributor(s) |
+|:-----|:----------------|
+| Conceptualization, Methodology, Formal Analysis | Md Salek Miah |
+| Data Curation, Software, Visualization (spatial mapping) | Md Salek Miah |
+| Clinical/Content Expertise, Validation | Maria Bintey Kabir |
+| Writing – Original Draft | Md Salek Miah |
+| Writing – Review & Editing | Both authors |
+| Supervision guidance | Prof. Md Jamal Uddin (SUST / Daffodil International University) |
 
 ---
 
@@ -246,13 +327,13 @@ Eligible: Women aged 15–49 · usual residents or overnight guests
 Subsampled: PHQ-9 depression module respondents
           │
           ▼
-              ┌──────────────────────────────────────────┐
-              │   Final Weighted Sample: n = 3,297        │
-              ├──────────────────┬─────────────────────────┤
-              │  🌾 Rural 55.0%  │   n = 2,086              │
-              │  🏙️ Urban 45.0%  │   n = 1,211              │
-              │  📍 10 Districts │   Spatial mapping         │
-              └──────────────────┴─────────────────────────┘
+              ┌───────────────────────────────────────────┐
+              │   Final Weighted Sample: n = 3,297         │
+              ├──────────────────┬──────────────────────────┤
+              │  🌾 Rural 55.0%  │   n = 2,086               │
+              │  🏙️ Urban 45.0%  │   n = 1,211               │
+              │  📍 10 Districts │   Spatial mapping          │
+              └──────────────────┴──────────────────────────┘
 ```
 
 ---
@@ -273,8 +354,8 @@ Rural-Urban-Inequalities-in-Depression-among-Ever-Married-Women-in-Lesotho/
 ├── 🗺️ Spatial & Visual Outputs
 │   ├── Rplot01.tiff                    ← Depression prevalence spatial figure (300 DPI)
 │   ├── Rplot02.tiff                    ← Decision autonomy prevalence spatial figure (300 DPI)
-│   ├── Figure 3.tif                    ← Published Figure 3 (journal-formatted)
-│   ├── Figure 4.tif                    ← Published Figure 4 (journal-formatted)
+│   ├── Figure 3.tif                    ← Published Figure 3 (final journal-formatted)
+│   ├── Figure 4.tif                    ← Published Figure 4 (final journal-formatted)
 │   ├── Picture5.tif                    ← Supplementary figure
 │   └── Graphical_abstract.pdf          ← Journal graphical abstract
 │
@@ -422,6 +503,73 @@ Women scored 1 point per domain if they reported deciding **alone or jointly** w
 
 ---
 
+## 🔧 Reproducibility — How to Run This Analysis
+
+```
+Step 1 — Data Preparation (Stata)
+   Open "Data management.do"
+   → Cleans raw LDHS variables, recodes PHQ-9 items, constructs the
+     autonomy composite index, applies survey weights (svyset)
+
+Step 2 — Descriptive & Regression Analysis (Stata)
+   Open "Analysis.do"
+   → Produces weighted prevalence estimates, bivariate chi-square tests,
+     and the stepwise survey-weighted logistic models (Model 0 → Model 4),
+     national + rural/urban-stratified, plus AUC / Hosmer–Lemeshow / VIF
+
+Step 3 — Spatial Mapping (R)
+   Open "Spatials.do" outputs / run in R with ggplot2 + shapefiles
+   → Generates district-level choropleth maps (Rplot01.tiff, Rplot02.tiff)
+
+Requirements:
+   • Stata 16+ (svy suite, estat commands)
+   • R 4.x with ggplot2, sf, and Lesotho district shapefiles
+   • clean_data_emp.dta (included) or raw LDHS 2023–24 files from dhsprogram.com
+```
+
+---
+
+## Data Availability Statement
+
+The cleaned, analysis-ready dataset (`clean_data_emp.dta`) is openly shared in this repository. The original raw LDHS 2023–24 datasets remain the property of the DHS Program / ICF International and are available to researchers free of charge upon registration at [dhsprogram.com](https://dhsprogram.com). Users of the raw microdata must comply with the DHS Program's data use terms.
+
+## Ethical Considerations
+
+This study is a secondary analysis of de-identified, publicly available survey data. The original LDHS 2023–24 fieldwork received ethical clearance from the relevant Lesotho institutional review authority and the ICF International Institutional Review Board, in line with DHS Program protocols; all respondents provided informed consent prior to interview. No additional ethical approval was required for this secondary analysis. *(Please cross-check this statement against the exact wording in the published article's Ethics section.)*
+
+## Funding & Conflict of Interest
+
+This secondary data analysis was conducted without dedicated external project funding, consistent with typical DHS-based academic secondary analyses. The authors declare no competing interests. *(Confirm against the Funding and Declaration of Competing Interest statements in the final published article.)*
+
+---
+
+## Strengths & Limitations
+
+| Strengths | Limitations |
+|:----------|:-------------|
+| Nationally representative sample with survey-weighted design | Cross-sectional design precludes causal inference |
+| First study to jointly examine autonomy, depression, and rural–urban strata in Lesotho | PHQ-9 is a screening tool, not a clinical diagnostic instrument |
+| District-level spatial mapping adds geographic granularity absent from most DHS mental health studies | Self-reported measures of autonomy and depressive symptoms may be subject to social desirability bias |
+| STROBE-compliant reporting and transparent, reproducible Stata/R pipeline | Residual confounding from unmeasured psychosocial or genetic factors cannot be excluded |
+| Full editorial and peer-review trail openly archived for reproducibility | Moderate model discrimination (AUC = 0.68) indicates room for additional predictors |
+
+---
+
+## Related Work from the Author
+
+Part of a broader multi-country DHS research program on women's empowerment and mental health led by Md Salek Miah:
+
+| Study | Country / Data | Focus |
+|:------|:----------------|:------|
+| BMC Women's Health (Springer Nature) | Multi-country DHS | Women's health and empowerment indicators |
+| Health Science Reports (Wiley) | Nepal DHS | Water, handwashing, and early childhood education |
+| Cambridge Prisms: Global Mental Health | Zambia DHS | Intimate partner violence and mental health |
+| **This study** — Journal of Affective Disorders Reports (Elsevier) | Lesotho LDHS 2023–24 | Decision-making autonomy and depression, rural–urban strata |
+
+> 📺 Methods and walkthroughs for these related projects are also featured on **[Salek Research Hub](https://www.youtube.com/@SalekResearch)**.
+
+---
+
 ## Research Impact
 
 | Domain | Contribution |
@@ -449,13 +597,16 @@ Women scored 1 point per domain if they reported deciding **alone or jointly** w
 
 ## Citation
 
+**APA:**
+Miah, M. S., & Kabir, M. B. (2026). Decision-making autonomy and depressive symptoms among women in Lesotho: Rural–urban differences. *Journal of Affective Disorders Reports*, Article 101080. https://doi.org/10.1016/j.jadr.2026.101080
+
+**BibTeX:**
 ```bibtex
 @article{miah_kabir_autonomy_depression_lesotho_2026,
   title   = {Decision-Making Autonomy and Depressive Symptoms Among Women in Lesotho:
              Rural--Urban Differences},
   author  = {Miah, Md Salek and Kabir, Maria Bintey},
   journal = {Journal of Affective Disorders Reports},
-  volume  = {},
   pages   = {101080},
   year    = {2026},
   note    = {Published. Available online 13 May 2026.},
@@ -463,6 +614,12 @@ Women scored 1 point per domain if they reported deciding **alone or jointly** w
   url     = {https://doi.org/10.1016/j.jadr.2026.101080}
 }
 ```
+
+---
+
+## Acknowledgments
+
+The authors thank the DHS Program and USAID for public access to the Lesotho DHS 2023–24 data, and the editorial team and anonymous reviewers at the *Journal of Affective Disorders Reports* for their constructive feedback during peer review.
 
 ---
 
@@ -488,6 +645,6 @@ Sylhet-3114, Bangladesh
 
 *⭐ Star this repository if it supported your research!*
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:e11d48,50:1A478B,100:0f0f0f&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=100&section=footer" width="100%" alt="footer banner"/>
 
 </div>
